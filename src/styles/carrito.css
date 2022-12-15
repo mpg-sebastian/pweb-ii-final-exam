@@ -1,0 +1,124 @@
+#content {
+    position: relative;
+}
+
+a {
+    color: #262A2C;
+    text-decoration: none;
+}
+
+.inner-content-row {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.cl-default-page-header {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+h2:not(.custom_font), .h2 {
+    font-size: 60px;
+    line-height: 64px;
+    text-transform: none;
+    font-weight: 700;
+    letter-spacing: -0.02px;
+    color: #262A2C;
+}
+.cl-default-page-header h2 {
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.cl-default-page-header .page_parents {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.cl-default-page-header {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.cl-default-page-header .page_parents li:first-child {
+    padding-left: 0;
+}
+
+.cl-default-page-header .page_parents li {
+    padding-left: 14px;
+    padding-right: 14px;
+    position: relative;
+    line-height: 20px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.cl-default-page-header .page_parents {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.cl-default-page-header .page_parents li:last-child {
+    padding-right: 0;
+}
+.cl-default-page-header .page_parents li {
+    padding-left: 14px;
+    padding-right: 14px;
+    position: relative;
+    line-height: 20px;
+}
+
+.woocommerce .cart-empty {
+    text-align: center;
+}
+
+.woocommerce .cart-empty+.return-to-shop {
+    text-align: center;
+}
+
+.cl-btn:not(.btn-priority_secondary):not(.wpcf7-submit):not(.entry-readmore):not([name="apply_coupon"]):not(.single_add_to_cart_button):not(.update_item_submit):not(.checkout-button):not(#place_order) {
+    background-color: #eb5a46;
+}
+
+.return-to-shop a {
+    background: #262a2c;
+    text-transform: uppercase;
+    font-weight: 600!important;
+    font-size: 14px;
+}
+.btn-style-square {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    padding: 15px 24px;
+}
+.cl-btn {
+    cursor: pointer;
+    display: inline-block;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    transition: all .25s ease;
+    line-height: 20px;
+    letter-spacing: .4px;
+    font-weight: 600;
+}
+
+

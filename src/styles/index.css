@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700;800&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+@font-face {
+  font-family: "SofiaPro";
+  src: local("SofiaPro"), url(../assets/fonts/sofia-pro-regular.ttf) format('truetype');
+}
+
+:root {
+  --main-color: #D60027;
+  --dark-bg-color: #212426;
+  --grey-color: #8b99a3;
+  --black-color: #000000;
+  --white-color: #FFFFFF;
+  --border-grey-40: #8b99a340;
+  --link-color-effect: #ec2626;
+  --link-grey-color: #262a2c;
+  --yellow-color: #f0b849;
+  --yellow-color-hover: #f0b84999;
+  --grey-dark-color: #262a2c;
+  --red-color: #ec2626;
+  --gradient-start-color: #D60027;
+  --gradient-end-color: #7300A5;
+  --subtitle-color: #617798;
+  --heading-color: #002348;
+  --blue-color: #337ab7;
+
+  font-family: "SofiaPro";
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.card-section-gradient {
+  background: linear-gradient(90deg,var(--gradient-start-color) 0%,var(--gradient-end-color) 100%);
+  opacity: .8;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+  transition: all .3s ease;
+}
+
+.cursor-pointer:hover svg {
+  color: var(--link-color-effect);
+}
+
+/* onclick */
+.cursor-pointer:active {
+  transform: scale(.9);
+}
+
+.max-height-img{
+  max-height: 737px;
+}
