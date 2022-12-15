@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
 import { ApiWebImagesURL } from '../../utils';
 
 function Carrito() {
@@ -8,6 +7,7 @@ function Carrito() {
 
   useEffect(() => {
     leerDatosCarrito();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   const leerDatosCarrito = async () => {
